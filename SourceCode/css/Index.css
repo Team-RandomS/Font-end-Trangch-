@@ -93,21 +93,6 @@ a {
 
 /* css cho phần giỏ hàng */
 
-.number {
-    /* position: absolute; */
-    top: -25px;
-    left: -15px;
-    z-index: 20;
-    border-radius: 20px;
-    width: 18px;
-    height: 18px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 18px;
-    position: relative;
-    background: #ea1c00;
-}
-
 .navbar-top-header {
     max-width: 24px;
     margin-right: 8px;
