@@ -424,9 +424,12 @@ h1.tille {
 
 .footer {
     background: #f6f6f6;
-    padding: 20px 0;
+    float: left;
     display: inline;
     text-align: left;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    width: 1240px;
     /* margin: 20px; */
 }
 
@@ -480,8 +483,10 @@ h1.tille {
 }
 
 .laptopbtn {
+    width: 130px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transform: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
     float: left;
     color: #C60000;
     font-weight: bold;
@@ -495,21 +500,25 @@ h1.tille {
     display: none;
     position: absolute;
     background-color: #e9d8f4;
-    min-width: 160px;
+    min-width: 120px;
+    left: 126px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .menu-laptop a {
-    color: black;
+    color: #FF00FF;
+    width: 165px;
+    background-color: #87CEFF;
+    border: 1px solid #7FFF00;
+    border-radius: 5px;
     padding: 12px 16px;
     text-decoration: none;
     display: inline-block;
 }
 
 .laptop a:hover {
-    background-color: #58257b;
-    color: white;
+    color: #ADFF2F;
 }
 
 .laptop:hover .menu-laptop {
@@ -525,8 +534,10 @@ h1.tille {
 }
 
 .banphimbtn {
+    width: 130px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transform: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
     float: left;
     color: #C60000;
     font-weight: bold;
@@ -540,21 +551,25 @@ h1.tille {
     display: none;
     position: absolute;
     background-color: #e9d8f4;
-    min-width: 160px;
+    min-width: 120px;
+    left: 126px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .menu-banphim a {
-    color: black;
+    color: #FF00FF;
+    width: 147px;
+    background-color: #87CEFF;
+    border: 1px solid #7FFF00;
+    border-radius: 5px;
     padding: 12px 16px;
     text-decoration: none;
     display: inline-block;
 }
 
 .banphim a:hover {
-    background-color: #58257b;
-    color: white;
+    color: #ADFF2F;
 }
 
 .banphim:hover .menu-banphim {
@@ -570,8 +585,10 @@ h1.tille {
 }
 
 .chuotbtn {
+    width: 130px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transform: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
     float: left;
     color: #C60000;
     font-weight: bold;
@@ -585,21 +602,25 @@ h1.tille {
     display: none;
     position: absolute;
     background-color: #e9d8f4;
-    min-width: 160px;
+    min-width: 120px;
+    left: 126px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .menu-chuot a {
-    color: black;
+    color: #FF00FF;
+    width: 155px;
+    background-color: #87CEFF;
+    border: 1px solid #7FFF00;
+    border-radius: 5px;
     padding: 12px 16px;
     text-decoration: none;
     display: inline-block;
 }
 
 .chuot a:hover {
-    background-color: #58257b;
-    color: white;
+    color: #ADFF2F;
 }
 
 .chuot:hover .menu-chuot {
@@ -646,6 +667,10 @@ h1.tille {
     cursor: pointer;
 }
 
+.loa:hover {
+    color: #ADFF2F;
+}
+
 
 /**/
 
@@ -655,8 +680,10 @@ h1.tille {
 }
 
 .linhkienbtn {
+    width: 130px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transform: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
     float: left;
     color: #C60000;
     font-weight: bold;
@@ -670,26 +697,33 @@ h1.tille {
     display: none;
     position: absolute;
     background-color: #e9d8f4;
-    min-width: 160px;
+    min-width: 120px;
+    left: 126px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .menu-linhkien a {
-    color: black;
+    color: #FF00FF;
+    width: 120px;
+    background-color: #87CEFF;
+    border: 1px solid #7FFF00;
+    border-radius: 5px;
     padding: 12px 16px;
     text-decoration: none;
     display: inline-block;
 }
 
 .linhkien a:hover {
-    background-color: #58257b;
-    color: white;
+    color: #ADFF2F;
 }
 
 .linhkien:hover .menu-linhkien {
     display: inline-block;
 }
+
+
+/**/
 
 .Left {
     float: left;
